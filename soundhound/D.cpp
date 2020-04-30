@@ -58,7 +58,7 @@ int main(int, char**) {
 		G2[v].push_back(Edge(u, b));
 	}
 
-	stack<int> stk;
+	stack<long long> stk;
 	long long prev = INF;
 	vector<long long> dp1 = solve(G1, s);
 	vector<long long> dp2 = solve(G2, t);
